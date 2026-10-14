@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 8rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 4.4rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  color: #222;
+}
+
+/* HEADER STYLING DESKTOP */
+
+header {
+  padding: 30px 100px;
+}
+
+header > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header > nav a {
+  text-decoration: none;
+}
+
+header > nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+main > section {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+main > section .container {
+  border: 1px solid #c6c6c6;
+  padding: 6rem;
+}
+
+main > section > .container:last-child {
+  padding: 0;
+  border: none;
+  display: flex;
+}
+
+main > section > .container > section {
+  width: 50%;
+  border: 1px solid #c6c6c6;
+  padding: 6rem;
+}
+
+main > section > ul {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #c6c6c6;
+  padding: 3rem 0 1.5rem 0;
+  align-items: center;
+}
+
+main > section > ul > li > img {
+  height: 0.5rem;
+  align-items: center;
+}
+
+main > section > h3 {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #d64793;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(to right, #d64793, #4c3471);
+  font-size: 1.6rem;
+}
+
+button.btn-round {
+  width: 50px;
+  padding: 15px;
+  background-color: #d64793;
+  background-image: linear-gradient(to right, #4c3471, #4c3471);
+}
+
+main > section > .container.container-column {
+  flex-direction: column;
+}
+
+main > section > .container.container-column section {
+  width: 90%;
+}
+
+footer > section {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+footer > section .container {
+  border: 1px solid #c6c6c6;
+  padding: 6rem;
+  width: 50%;
+}
+
+footer > section > section ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer > section > section ul:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+footer > section:last-child {
+  justify-content: center;
+  padding: 6rem 0;
+  border: 1px solid #c6c6c6;
+}
