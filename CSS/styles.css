@@ -137,6 +137,7 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.5;
+  background-image: url("../Assets/img/background.png");
 }
 
 h1 {
@@ -194,6 +195,10 @@ main > section {
 main > section .container {
   border: 1px solid #c6c6c6;
   padding: 6rem;
+}
+
+main > section .container img {
+  width: 100%;
 }
 
 main > section > .container:last-child {
@@ -267,11 +272,7 @@ footer > section .container {
 footer > section > section ul {
   display: flex;
   flex-direction: row;
-}
-
-footer > section > section ul:last-child {
-  display: flex;
-  flex-direction: column;
+  gap: 10px;
 }
 
 footer > section:last-child {
