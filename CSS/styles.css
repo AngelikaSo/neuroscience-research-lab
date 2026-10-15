@@ -186,6 +186,14 @@ header > nav > ul {
   gap: 20px;
 }
 
+header > nav > ul > li a:hover {
+  color: #d64793;
+}
+
+header > nav > ul > li a.active {
+  color: #d64793;
+}
+
 main > section {
   width: 100%;
   max-width: 1200px;
@@ -201,7 +209,7 @@ main > section .container img {
   width: 100%;
 }
 
-main > section > .container:last-child {
+main > section > .container.container-row {
   padding: 0;
   border: none;
   display: flex;
@@ -239,6 +247,7 @@ button {
   color: #fff;
   background-image: linear-gradient(to right, #d64793, #4c3471);
   font-size: 1.6rem;
+  margin-top: 20px;
 }
 
 button.btn-round {
@@ -250,6 +259,8 @@ button.btn-round {
 
 main > section > .container.container-column {
   flex-direction: column;
+  padding: 0;
+  border: none;
 }
 
 main > section > .container.container-column section {
