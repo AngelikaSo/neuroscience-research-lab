@@ -192,6 +192,9 @@ header > nav > ul > li a:hover {
 
 header > nav > ul > li a.active {
   color: #d64793;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  text-decoration-thickness: 0.07em;
 }
 
 main > section {
